@@ -7,7 +7,7 @@ title = Quatech
 package.name = QuaTech
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.quatech
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -44,10 +44,10 @@ requirements = python3==3.9.1,hostpython3==3.9.1,kivy,requests,pillow
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/data/splash.png
+presplash.filename = splash.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/data/icon.png
+icon.filename = icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
