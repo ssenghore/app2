@@ -15,76 +15,76 @@ class nestApp(GridLayout):
         super(nestApp,self).__init__(**kwargs)
         self.cols=3
         self.row_force_default=True
-        self.row_default_height=50
+        self.row_default_height=60
         self.add_widget(Label(text='Ip adress', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.ip_input=TextInput(hint_text='Enter IP address Here')
         self.add_widget(self.ip_input)
         self.entrbutton=Button(text='Enter',font_size='20sp', bold=True,color=(0,0,0,1),size_hint=(0.25,0.25))
         self.add_widget(self.entrbutton)
-        self.add_widget(Label(text='Relay ONE', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 1', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay1ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.oneonButton)
         self.add_widget(self.relay1ON)
         self.relay1OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.oneoffButton)
         self.add_widget(self.relay1OFF)
-        self.add_widget(Label(text='Relay TWO', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 2', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay2ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.twoonButton)
         self.add_widget(self.relay2ON)
         self.relay2OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.twooffButton)
         self.add_widget(self.relay2OFF)
-        self.add_widget(Label(text='Relay THREE', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 3', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay3ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.threeonButton)
         self.add_widget(self.relay3ON)
         self.relay3OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.threeoffButton)
         self.add_widget(self.relay3OFF)
-        self.add_widget(Label(text='Relay FOUR', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 4', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay4ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.fouronButton)
         self.add_widget(self.relay4ON)
         self.relay4OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.fouroffButton)
         self.add_widget(self.relay4OFF)
-        self.add_widget(Label(text='Relay FIVE', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 5', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay5ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.fiveonButton)
         self.add_widget(self.relay5ON)
         self.relay5OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.fiveoffButton)
         self.add_widget(self.relay5OFF)
-        self.add_widget(Label(text='Relay SIX', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 6', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay6ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.sixonButton)
         self.add_widget(self.relay6ON)
         self.relay6OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.sixoffButton)
         self.add_widget(self.relay6OFF)
-        self.add_widget(Label(text='Relay SEVEN', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 7', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay7ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.sevenonButton)
         self.add_widget(self.relay7ON)
         self.relay7OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.sevenoffButton)
         self.add_widget(self.relay7OFF)
-        self.add_widget(Label(text='Relay EIGHT', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 8', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay8ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.eightonButton)
         self.add_widget(self.relay8ON)
         self.relay8OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.eightoffButton)
         self.add_widget(self.relay8OFF)
-        self.add_widget(Label(text='Relay NINE', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 9', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay9ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.nineonButton)
         self.add_widget(self.relay9ON)
         self.relay9OFF=Button(text='OFF',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(1,0,0,1),on_press=self.nineoffButton)
         self.add_widget(self.relay9OFF)
-        self.add_widget(Label(text='Relay TEN', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.add_widget(Label(text='Relay 10', font_size='20sp', bold=True,color=(0,0,0,1)))
         self.relay10ON=Button(text='ON',font_size='20sp', bold=True,color=(0,0,0,1),
                            background_color=(0,1,0,1),on_press=self.tenonButton)
         self.add_widget(self.relay10ON)
