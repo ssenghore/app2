@@ -15,9 +15,9 @@ class nestApp(GridLayout):
         super(nestApp,self).__init__(**kwargs)
         self.cols=3
         self.row_force_default=True
-        self.row_default_height=40
-        self.add_widget(Label(text='Enter The Ip adress', font_size='20sp', bold=True,color=(0,0,0,1)))
-        self.ip_input=TextInput()
+        self.row_default_height=50
+        self.add_widget(Label(text='Ip adress', font_size='20sp', bold=True,color=(0,0,0,1)))
+        self.ip_input=TextInput(hint_text='Enter IP address Here')
         self.add_widget(self.ip_input)
         self.entrbutton=Button(text='Enter',font_size='20sp', bold=True,color=(0,0,0,1),size_hint=(0.25,0.25))
         self.add_widget(self.entrbutton)
